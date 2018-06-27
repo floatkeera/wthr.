@@ -1,0 +1,187 @@
+body {
+
+
+  	font-family: 'Open Sans', sans-serif;
+
+    padding-top: 50px;
+    transition: all 0.3s ease;
+}
+
+html{
+	height: 100%;
+    width: 100%;
+}
+
+.box{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.home{
+ 	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	height: 100%;
+  	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://i.ytimg.com/vi/7MnSk8PLh2g/maxresdefault.jpg');
+  	background-size: cover;
+
+ }
+
+.app{
+	height: calc(100vh - 50px);
+}
+
+h1{
+	font-weight: lighter;
+	font-size: 42pt;
+	margin: 20px;
+	color: white;
+	font-family: 'Work Sans';
+}
+
+.btn-primary{
+	font-weight: bolder;
+	margin: 10px;
+	background-color: #00BFA5;
+}
+
+.btn-primary:hover{
+	background-color: #26A69A !important;
+}
+
+
+#navSearch{
+	margin: 0px;
+}
+
+
+.form-inline .form-control{
+	width: 400px;
+	margin: 0 auto;
+}
+
+.navbar-default .navbar-brand{
+	font-weight: bold;
+	font-size: 24pt;
+	color: #00BFA5;
+
+}
+
+.navbar-default .navbar-brand:hover{
+	color: #26A69A;
+}
+
+.nav{
+	background-color: white;
+}
+
+.forecast{
+	text-align: center;
+	color: white;
+
+
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.forecast h1{
+	color: white;
+	font-size: 48pt;
+	margin: 0;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+i{
+	
+	
+
+	margin-right: 20px;
+	 color: transparent;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: white;
+}
+
+.conditions{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2{
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.fivedays{
+	display: flex;
+
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.day{
+	background: rgba(3, 3, 3, 0.4);
+	margin: 10px;
+	min-width: 200px;
+	padding: 10px;
+}
+
+.day:hover{
+	background: rgba(20, 20, 20, 0.8);
+	transition: all 0.3s ease;
+}
+.date{
+	font-size: 16pt;
+	font-weight: lighter;
+	color: #00BFA5;
+
+}
+
+.description{
+	font-size: 12pt;
+}
+.temp{
+	font-size: 12pt;
+}
+
+.bigTemp{
+	font-family: 'Work Sans';
+	font-weight: lighter;
+	font-size: 48pt;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+
+.currentdesc{
+	font-family: 'Work Sans';
+	font-weight: lighter;
+	font-size: 18pt;
+	margin-bottom: 0px;
+}
+
+.currentdesc p{
+	margin-bottom: 0px;
+}
+
+.day p{
+	
+}
+.forecastbefore{
+  	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://i.ytimg.com/vi/7MnSk8PLh2g/maxresdefault.jpg');
+  	background-size: cover;
+  	display: block;
+  	position: fixed;
+  	z-index: -1;
+  	height: 100%;
+  	width: 100%;
+}
+
+.fiveDaysWrapper{
+	margin-top: 50px;
+}
+
+
