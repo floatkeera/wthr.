@@ -5,3 +5,4 @@ wthr. utilizes the OpenWeatherMap API for real-time weather information, as well
 This test app can be viewed at https://floatwthr.firebaseapp.com/
 
 ## Dependencies
+npm
